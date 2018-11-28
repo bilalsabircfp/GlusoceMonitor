@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggg"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_gravity="center"
+                android:elevation="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Edit Post"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:background="#dcffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/update_title"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dotted_background"
+                    android:hint="Enter Post Title"
+                    android:minHeight="50dp"
+                    android:textSize="18dp"/>
+
+
+                <EditText
+                    android:id="@+id/update_desc"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dotted_background"
+                    android:hint="Enter Post Description"
+                    android:minHeight="100dp"
+                    android:gravity="start"
+                    android:textSize="18dp"/>
+
+
+                <TextView
+                    android:id="@+id/update_dob"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dotted_background"
+                    android:hint="Enter The Deadline Date"
+                    android:gravity="start"
+                    android:textSize="18dp"/>
+
+
+                <Spinner
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:id="@+id/spinner2"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" />
+
+
+
+                <Button
+                    android:id="@+id/select_img_"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Add Image"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg"/>
+
+
+
+                <ImageView
+                    android:src="@drawable/no_image"
+                    android:id="@+id/update_image"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="300dp"
+                    android:scaleType="fitXY"/>
+
+
+
+                <Button
+                    android:id="@+id/update_post"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Upate Post"
+                    android:layout_margin="10dp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

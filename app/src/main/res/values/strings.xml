@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cusit E-Notice Board</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="depts">
+        <item>Meals</item>
+        <item>News</item>
+    </string-array>
+
+
+    <string-array name="filter_depts">
+        <item>Meals</item>
+        <item>News</item>
+    </string-array>
+
+</resources>
