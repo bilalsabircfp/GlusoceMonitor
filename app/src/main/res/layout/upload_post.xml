@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bggg"
     android:orientation="vertical">
 
 
@@ -103,7 +102,7 @@
                 android:text="Add Image"
                 android:textAllCaps="false"
                 android:layout_gravity="center"
-                android:background="@drawable/bg"/>
+                android:background="@drawable/bgxml"/>
 
 
 
@@ -114,7 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="300dp"
-                android:scaleType="fitXY"/>
+                android:scaleType="centerInside"/>
 
 
 
@@ -126,7 +125,7 @@
                 android:layout_margin="10dp"
                 android:textAllCaps="false"
                 android:layout_gravity="center"
-                android:background="@drawable/bg"/>
+                android:background="@drawable/bgxml"/>
 
 
         </LinearLayout>

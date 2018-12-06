@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bggg"
     tools:context="com.bilal.dzone.medical_glucose.Student.Edit_pass.Edit_Pass">
 
 
@@ -59,7 +58,7 @@
             android:layout_gravity="center"
             android:text="Submit"
             android:textAllCaps="false"
-            android:background="@drawable/bg"
+            android:background="@drawable/bgxml"
             android:layout_margin="10dp"/>
 
 
@@ -139,7 +138,7 @@
             android:layout_gravity="center"
             android:text="Update"
             android:textAllCaps="false"
-            android:background="@drawable/bg"
+            android:background="@drawable/bgxml"
             android:layout_margin="10dp"/>
 
 

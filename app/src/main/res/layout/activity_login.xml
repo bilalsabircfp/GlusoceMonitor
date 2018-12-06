@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bggg"
+    android:background="@drawable/bg"
     android:orientation="vertical"
     android:scrollbarAlwaysDrawVerticalTrack="true">
 
@@ -17,7 +17,7 @@
 
 
     <TextView
-        android:background="@drawable/bg"
+        android:visibility="invisible"
         android:id="@+id/login_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:text="Enter Your Credentials"
-        android:textColor="@color/colorAccent"
+        android:textColor="#fff"
         android:fontFamily="cursive"
         android:textSize="30dp"
         android:textStyle="bold" />
@@ -49,7 +49,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingTop="30dp">
+            android:paddingTop="40dp">
 
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="10dp"
@@ -110,7 +110,7 @@
 
                     <RadioButton
                         android:id="@+id/teacher"
-                        android:text="Admin"
+                        android:text="Doctor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -124,7 +124,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="22dp"
-                android:background="@drawable/bg"
+                android:background="@drawable/bgxml"
                 android:text="Sign In"
                 android:textAllCaps="false"
                 android:textColor="@color/colorAccent"
@@ -155,7 +155,7 @@
         android:layout_marginTop="16dp"
         android:background="#06ffffff"
         android:elevation="8dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_blood"
         android:scaleType="fitXY"/>
 
 

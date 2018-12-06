@@ -75,7 +75,7 @@
 
         <Button
             android:padding="5dp"
-            android:background="@drawable/bg"
+            android:background="@drawable/bgxml"
             android:layout_margin="5dp"
             android:id="@+id/btn"
             android:minWidth="150dp"

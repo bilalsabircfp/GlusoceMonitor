@@ -2,17 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/feed_bg"
+    android:background="#e9e9e9"
     android:orientation="vertical" >
 
     <LinearLayout
+        android:layout_marginBottom="3dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginTop="@dimen/feed_item_margin"
-        android:background="@drawable/bg_parent_rounded_corner"
         android:orientation="vertical"
+        android:background="@color/feed_item_bg"
         android:paddingBottom="@dimen/feed_item_padding_top_bottom"
         android:paddingTop="@dimen/feed_item_padding_top_bottom" >
 
@@ -25,6 +23,7 @@
 
 
             <ImageView
+                android:layout_marginTop="5dp"
                 android:id="@+id/full_screen"
                 android:layout_gravity="end"
                 android:src="@drawable/icon"
@@ -45,7 +44,7 @@
 
             <ImageView
                 android:id="@+id/profilePic"
-                android:src="@drawable/logo"
+                android:src="@drawable/logo_blood"
                 android:layout_width="@dimen/feed_item_profile_pic"
                 android:layout_height="@dimen/feed_item_profile_pic"
                 android:scaleType="fitCenter" >
@@ -101,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:background="@color/white"
-            android:scaleType="fitXY"
+            android:scaleType="centerInside"
             android:visibility="visible" />
 
 

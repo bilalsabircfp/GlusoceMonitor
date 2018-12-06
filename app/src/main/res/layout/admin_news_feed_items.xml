@@ -25,7 +25,7 @@
 
             <ImageView
                 android:id="@+id/profilePic"
-                android:src="@drawable/city"
+                android:src="@drawable/logo_blood"
                 android:layout_width="@dimen/feed_item_profile_pic"
                 android:layout_height="@dimen/feed_item_profile_pic"
                 android:scaleType="fitCenter" >
@@ -86,7 +86,7 @@
             android:layout_height="300dp"
             android:minHeight="300dp"
             android:background="@color/white"
-            android:scaleType="fitXY"
+            android:scaleType="centerInside"
             android:visibility="visible" />
 
 
@@ -101,7 +101,7 @@
 
 
             <Button
-                android:background="@drawable/bg_red"
+                android:background="@drawable/bg_yellow"
                 android:layout_gravity="center"
                 android:id="@+id/edit"
                 android:text="Edit Post"

@@ -308,7 +308,7 @@ public class Student_Activity_old extends AppCompatActivity implements View.OnCl
 
         // attach to current activity;
         resideMenu = new ResideMenu(this);
-        resideMenu.setBackground(R.drawable.bggg);
+//        resideMenu.setBackground(R.drawable.bggg);
         resideMenu.attachToActivity(this);
 //        resideMenu.setMenuListener(menuListener);
         //valid scale factor is between 0.0f and 1.0f. leftmenu'width is 150dip.

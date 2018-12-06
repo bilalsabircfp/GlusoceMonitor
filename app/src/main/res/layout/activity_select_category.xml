@@ -1,78 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="@drawable/bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginTop="92dp"
-        android:text="Select Category"
-        android:textColor="#000"
-        android:textStyle="bold"
-        android:textSize="24dp" />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Meals"
-        android:textSize="25dp"
-        android:textColor="#000"
-        android:fontFamily="cursive"
-        android:layout_gravity="center"
-        android:layout_below="@+id/meal"
-        android:layout_marginLeft="90dp"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_gravity="center"
+    <ImageView
         android:id="@+id/meal"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:layout_marginLeft="70dp"
-        android:src="@drawable/breakfast"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/bg"
-        />
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/news"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/meal" />
 
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="News"
-        android:textSize="25dp"
-        android:textColor="#000"
-        android:fontFamily="cursive"
-        android:layout_gravity="center"
-        android:layout_below="@+id/news"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="90dp"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_gravity="center"
-        android:background="@drawable/bg"
+    <ImageView
         android:id="@+id/news"
-        android:layout_width="96dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="70dp"
-        android:layout_height="96dp"
-        android:src="@drawable/newspaper"
-        />
-
-</RelativeLayout>
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/news" />
+</android.support.constraint.ConstraintLayout>

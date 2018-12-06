@@ -300,8 +300,8 @@ public class Student_Activity extends AppCompatActivity implements View.OnClickL
     private void setUpMenu() {
 
         // attach to current activity;
-        resideMenu = new ResideMenu(this);
-        resideMenu.setBackground(R.drawable.bggg);
+        resideMenu = new ResideMenu(mContext);
+        resideMenu.setBackground(R.color.timestamp);
         resideMenu.attachToActivity(this);
 //        resideMenu.setMenuListener(menuListener);
         //valid scale factor is between 0.0f and 1.0f. leftmenu'width is 150dip.

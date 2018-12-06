@@ -22,6 +22,7 @@ import com.bilal.dzone.medical_glucose.JsonParsing.JsonParser;
 import com.bilal.dzone.medical_glucose.Admin.Admin_Activity;
 import com.bilal.dzone.medical_glucose.R;
 import com.bilal.dzone.medical_glucose.Registeration.Register;
+import com.bilal.dzone.medical_glucose.Registeration.SelectCategoryRegisteration;
 import com.bilal.dzone.medical_glucose.Student.SelectCategory;
 import com.bilal.dzone.medical_glucose.Student.Student_Activity;
 import com.bilal.dzone.medical_glucose.Student.Student_Activity_old;
@@ -67,7 +68,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                intent = new Intent(Login.this,Register.class);
+                intent = new Intent(Login.this,SelectCategoryRegisteration.class);
                 startActivity(intent);
             }
         });

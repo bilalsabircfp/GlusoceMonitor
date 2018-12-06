@@ -5,13 +5,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string-array name="depts">
-        <item>Meals</item>
+        <item>Meals/Exercises</item>
         <item>News</item>
     </string-array>
 
 
     <string-array name="filter_depts">
-        <item>Meals</item>
+        <item>Meals/Exercises</item>
         <item>News</item>
     </string-array>
 
